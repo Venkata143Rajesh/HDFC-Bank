@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SafariCase(failed)">
+    <parameter name="browser" value="Safari"/>
+    <classes>
+      <class name="PracticeProgramA.A1_Alerts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="HandlingAlerts"/>
+        </methods>
+      </class> <!-- PracticeProgramA.A1_Alerts -->
+      <class name="PracticeTestingB.B15_Frames">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="clickable"/>
+        </methods>
+      </class> <!-- PracticeTestingB.B15_Frames -->
+      <class name="PracticeProgramA.A7_INR_optionsvalidation">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="options"/>
+        </methods>
+      </class> <!-- PracticeProgramA.A7_INR_optionsvalidation -->
+    </classes>
+  </test> <!-- SafariCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

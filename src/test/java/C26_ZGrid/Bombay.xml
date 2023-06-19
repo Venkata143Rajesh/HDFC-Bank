@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   
+  <test name="FirefoxCase">
+  <parameter name="browser" value="Firefox"/>
+  
+  <classes>
+  
+  <class name="PracticeProgramA.A1_Alerts"/>
+   <class name="PracticeProgramA.A7_INR_optionsvalidation"/>
+   <class name="PracticeTestingB.B15_Frames"/>
+  
+   </classes>
+   </test> <!-- Test -->
+  
+  <test name="chromeCase">
+  <parameter name="browser" value="chrome"/>
+  
+  <classes>
+   <class name="PracticeProgramA.A1_Alerts"/>
+   <class name="PracticeProgramA.A7_INR_optionsvalidation"/>
+   <class name="PracticeTestingB.B15_Frames"/>
+  </classes>
+   </test> <!-- Test -->
+  
+  <test name="IECase">
+  <parameter name="browser" value="IE"/>
+  <classes>
+  <class name="PracticeProgramA.A1_Alerts"/>
+   <class name="PracticeProgramA.A7_INR_optionsvalidation"/>
+   <class name="PracticeTestingB.B15_Frames"/>
+  </classes>
+   </test> <!-- Test -->
+  
+  <test name="SafariCase">
+  <parameter name="browser" value="Safari"/>
+  <classes>
+  
+   <class name="PracticeProgramA.A1_Alerts"/>
+   <class name="PracticeProgramA.A7_INR_optionsvalidation"/>
+   <class name="PracticeTestingB.B15_Frames"/>
+  
+   </classes>
+   
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

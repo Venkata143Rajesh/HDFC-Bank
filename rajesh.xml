@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   
+			   <class name="PracticeProgramA.A1_Alerts">
+		  <methods>
+			  <include name="HandlingAlerts"/>
+		  </methods>
+		  </class>
+		  
+		   <class name="PracticeProgramA.A7_INR_optionsvalidation">
+				
+				<methods>
+				<include name="options"/>
+				</methods>
+				
+				</class>
+					
+			 <class name="PracticeTestingB.B15_Frames">
+				
+				<methods>
+				<include name="clickable"/>
+				</methods>
+				
+
+				</class>
+				
+				<class name="PracticeTestingB.B18_DataDriven">
+				
+				<methods>
+				<include name="data"/>
+				</methods>
+				
+				</class>	
+				
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

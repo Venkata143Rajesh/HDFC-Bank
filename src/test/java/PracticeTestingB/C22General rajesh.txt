@@ -1,0 +1,47 @@
+<suite name="PracticeTesting1">  //suit name means here project name //here how to create Suite:Click on any one required program right click and go toTestNG and go to (Convert to TestNG) then we will get suite formate there.
+	<test name="xmlexecution">  //test name means here Module name that we have to keep according to our testing. Adhore testing is done means testing an application user defined order is called ahore testing.
+
+		<classes>
+		
+		        <class name="PracticeProgramA.A1_Alerts"> //here <class name = "package.Programname"> </class> (program name and class name are same because we give our program name as a class that why those are same.
+				
+				<methods>                         //Here methods are given and in <include name ="handlingalerts"/> (@Test is given here if many methods are there we need to give all those here creating methods in one <class name = "package.Programname"> </class>.
+				<include name="HandlingAlerts"/>
+				</methods>
+				
+			//	<methods>                         //For example in same class another method is created if more there we need to create.manamu eni @Test  methods una programs lo create chesukovachu. <include name="xyz"/> here xyz means method name example as shown here.
+			//	<include name="xyz"/>
+			//	</methods>
+				
+				</class>
+				
+				 <class name="PracticeProgramA.A7_INR_optionsvalidation">
+				
+				<methods>
+				<include name="options"/>
+				</methods>
+				
+				</class>
+				
+				
+				 <class name="PracticeProgramB.B15_Frames">
+				
+				<methods>
+				<include name="clickable"/>
+				</methods>
+				
+
+				</class>
+				
+				<class name="PracticeProgramB.B18_DataDriven">
+				
+				<methods>
+				<include name="data"/>
+				</methods>
+				
+				</class>
+		
+	    </classes>
+	
+	</test>
+</suite>
